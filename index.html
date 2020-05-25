@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>OMUYU's Portfolio</title>
+  
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+ 
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="home">
+        <div class="nav_toggle">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <nav class="nav">
+          <ul class="nav_menu_ul">
+            <li class="nav_menu_li under">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav_menu_li under">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav_menu_li under">
+              <a href="#service">Service</a>
+            </li>
+            <li class="nav_menu_li under">
+              <a href="#works">Works</a>
+            </li>
+            <li class="nav_menu_li">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <section class="bgimg">
+          <div class="container top">
+            <div class="row">
+              <div class="col-md-8 text-center inner">
+                <h1 class="white mt-5">OMUYU's Portfolio</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="text-white text-center bg-info py-2 box rounded">About</h2>
+        <div class="row mt-5">
+          
+          <div class="col-md-5 about-left">
+            <figure class="face">
+              <img src="image/DSC08026.JPG" alt="profile" decoding="”async”">
+            </figure>
+          </div>
+          
+          <div class="col-md-7 about-right">
+            <h3 class="text-white bg-dark text-center mb-3 rounded py-2 box2">Profile</h3>
+            <p class="px-2 text-muted"><span class="name">Yuki Omura</span><br><br>1988年生まれ。熊本在住。<br>大学を卒業してからは、最新のコンピュータ技術を駆使して、病気を見つけたり治したりする仕事をしてきました。<br>Web制作においては、プログラミング技術を駆使して、お客さまの課題を解決するお手伝いができればと考えております。</p>
+            <h3 class="text-white bg-dark text-center mt-5 mb-5 rounded py-2 box2">Skill</h3>
+            <ul>
+              <li><i class="fab fa-html5 text-danger"></i><br><span class="font-weight-bold text-muted">HTML</span></li>
+              <li><i class="fab fa-css3-alt text-primary"></i><br><span class="font-weight-bold text-muted">CSS</span></li>
+              <li><i class="fab fa-bootstrap text-563D7C"></i><br><span class="font-weight-bold text-muted">Bootstrap</span></li>
+              <li><i class="fab fa-js text-warning"></i><br><span class="font-weight-bold text-muted">jQuary</span></li>
+            </ul>
+            <p class="text-muted px-2 mt-4">さらなるスキルの習得に努めています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="service">
+      <div class="container">
+        <h2 class="text-white text-center bg-info py-2 box rounded mb-5">Service</h2>
+        <div class="row mt-5">
+          <div class="col-md-6 mb-5">
+            <h3 class="text-white bg-dark text-center mb-3 rounded py-2 font-size box2">Webサイト制作</h3>
+            <div class="service-icon mb-3"><i class="fas fa-laptop-code my-3 pb-2"></i></div>
+            <p class="text-muted">ホームページやランディングページなど、ご要望をもとに1か月程度で作成します。お客さまのイメージをしっかり表現することを心がけます。既存サイトの更新などもお気軽にご相談ください。</p>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h3 class="text-white bg-dark text-center mb-3 rounded py-2 font-size box2">レスポンシブ対応</h3>
+            <div class="service-icon mb-3"><i class="fas fa-mobile-alt my-3 pb-2"></i></div>
+            <p class="text-muted">スマホやタブレットでも見やすいページを制作します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="works">
+      <div class="container">
+        <h2 class="text-white text-center bg-info py-2 box rounded">Works</h2>
+        <div class="row mt-5">
+
+          <div class="card col-md-6 py-3 my-3">
+            <h3 class="text-white bg-dark text-center my-3 py-2 font-size rounded box2">架空サイト模写</h3>
+            <div class="imgbx"><img src="image/test1.jpg" alt class="img-fluid"></div>
+            <div class="text-dark text-center border p-3 cursor" data-toggle="modal" data-target="#exampleModalCenter">表示</div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                  <div class="modal-content p-1">
+                    <div class="modal-body">
+                      <img src="image/test1.jpg" alt class="img-fluid">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          <div class="card col-md-6 py-3 my-3">
+            <h3 class="text-white bg-dark text-center my-3 py-2 font-size rounded box2">架空コーポレートサイト模写</h3>
+            <div class="imgbx"><img src="image/test2.jpg" alt class="img-fluid"></div>
+            <div class="text-dark text-center border p-3 cursor" data-toggle="modal" data-target="#exampleModalCenter2">表示</div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                  <div class="modal-content p-1">
+                    <div class="modal-body">
+                      <img src="image/test2.jpg" alt class="img-fluid">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact" class="mb-0 pb-5">
+      <div class="container">
+        <h2 class="text-white text-center bg-dark py-2 box rounded">Contact</h2>
+
+          
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeGCHYLD1A7cG1tnONSRoLBoAuW1HGlAgIeg39uMkAtLlR7FQ/formResponse">
+          <div class="row">
+            <div class="col-md-6 contact-left">
+              <div class="contact-in my-5">
+                <label for="name" class="text-white font-weight-bold">お名前</label><br>
+                <input id="name" type="text" name="entry.1834280874" required>
+              </div>
+              <div class="contact-in my-5">
+                <label for="email" class="text-white font-weight-bold">メールアドレス</label><br>
+                <input id="email" type="mail" name="entry.252541682" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-msg">
+                <label for="msg" class="text-white font-weight-bold">お問い合わせ内容</label>
+                <textarea id="msg" name="entry.1862952863" required></textarea>
+              </div>
+              <div class="button">
+                <input type="submit" name="button" value="送信" ></input>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="tw mt-5">
+          <a href="https://twitter.com/papaotoko"><i class="fab fa-twitter fa-5x text-white"></i></a>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer class="bg-secondary text-white p-3">
+      <p class="text-center mb-0 text-footer">© OMU's Portfolio 2020.</p>
+    </footer>
+
+    <div id="page_top"><a href="#"><i class="fas fa-truck-monster text-white"></i></a></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+      $(".nav_toggle").on("click", function () {
+        $(".nav_toggle, .nav").toggleClass("show");
+      });
+      $("nav a").on("click", function(){
+            if (window.innerWidth <= 2000) {
+                $(".nav_toggle").click();
+            }
+      });
+
+
+      jQuery(function() {
+      var pagetop = $('#page_top');   
+      pagetop.hide();
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+              pagetop.fadeIn();
+          } else {
+              pagetop.fadeOut();
+          }
+      });
+      $('a[href^="#"]').click(function(){
+        var time = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" ? 'html' : href);
+        var distance = target.offset().top;
+          $("html, body").animate({scrollTop:distance}, time, "swing");
+          return false;
+        });
+      });
+
+      $(window).scroll(function (){
+        $('.fadein').each(function(){
+          var elemPos = $(this).offset().top,
+              scroll = $(window).scrollTop(),
+              windowHeight = $(window).height();
+            if(scroll > elemPos - windowHeight + 100){
+              $(this).addClass('scrollin')
+            }
+        });
+      });
+
+    </script>
+
+
+
+
+</body>
+</html>
