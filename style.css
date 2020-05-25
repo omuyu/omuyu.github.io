@@ -239,7 +239,6 @@ p{
 
 .modal{
   display: none;
-  height: 100vh;
   position: fixed;
   top: 0;
   width: 100%;
@@ -255,11 +254,27 @@ p{
 .modal-content{
   background: #fff;
   left: 50%;
-  padding: 40px;
+  padding: 0;
   position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
-  width: 60%;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width:767px){
+ .modal-content{
+   width: 100%;
+   height: auto;
+ }
+
+
+}
+
+
+.modal-body{
+  width: 100%;
+  padding: 0;
 }
 
 
@@ -315,13 +330,7 @@ button{
 
 
 
-.modal-content{
-  width: 80%;
-}
 
-.modal-body{
-  width: 100%;
-}
 
 #contact{
   background-image: url(image/contact-img.JPG);
@@ -399,3 +408,6 @@ button{
   opacity: 1;
   transform: translate(0,0);
 }
+
+
+
