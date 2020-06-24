@@ -67,8 +67,8 @@ h1{
 .nav_toggle.show {
   display: inline-block;
   position: fixed;
-  top: 25px;
-  right: 25px;
+  top: 0;
+  right: 0;
   width: 50px;
   height: 50px;
   box-sizing: border-box;
