@@ -42,7 +42,6 @@ h1{
 .bgimg{
   background-image : url(image/LRG_DSC05839_Original2.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position-x: center;
   height: 100vh;
@@ -368,7 +367,6 @@ button{
   background-position-y: center;
   background-position-x: right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 
